@@ -4,6 +4,8 @@ The SPSPubLog_drb_server runs on port 90900 by default and binds to IP address 0
 
 ## Usage
 
+    require 'spspublog_drb_server'
+
     SPSPubLogDRbServer.start
 
 ## Resources
