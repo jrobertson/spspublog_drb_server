@@ -8,7 +8,7 @@ require 'spspub_log'
 
 class SPSPubLogDRbServer
 
-  def self.start(host: '0.0.0.0', port: '90900', 
+  def self.start(host: '0.0.0.0', port: '9090', 
         sps: {host: 'sps2', port: 59100 })
     
     sps = SPSPubLog.new host: sps[:host], port: sps[:port]
